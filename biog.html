@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Computerworld</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <!--Google Fonts API html links provided via Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">  
+        <link href="https://fonts.cdnfonts.com/css/gill-sans?styles=17575" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/cooper-black" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    </head>
+    <body>
+        <div class="titlebar">
+            <!-- <header> tag breaks sticky subheader -->
+            <h1 class="title">COMPUTERWORLD</h1>
+            <h1 class="mobiletitle">COMPUTER<br>WORLD</h1>
+            <h2 class="mobilesubtitle">an introduction to Computational Thinking</h2>
+        </div>        
+        <div class="subhead">      
+            <h2 class="subtitle">an introduction to Computational Thinking</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="biog.html">Biography</a>
+                <a href="thoughts.html">Reflections</a>
+            </nav>
+        </div>
+        <main>
+            <h2>Donald Davies - a homegrown innovator</h2>
+            <div class="biotext">
+                <div id="bioimg1" class="imgwrap">
+                    <img src="img/donald.png" alt="Portrait photo of Donald Davies">
+                    <p class="caption">Donald Davies<br>1924 - 2002</p>
+                    <p class="attribution">CC BY-SA 4.0, via Wikimedia Commons</p>
+                </div>
+                <div id="bio1">
+                    <h3>Beginnings</h3>
+                    <p>While the newly acclaimed Alan Turing was upending the world of mathematics, a young Welsh boy named Donald would go along with his mother to her job in a Post Office telephone exchange.<br> 30 years later, as Superintendent at the National Physical Laboratory (NPL), Donald Davies would use his early memories to propose ‘packet switching’, influencing the creation of the first modern computer network and cementing his legacy in the world of computer science.</p>
+                    <p>Donald Watts Davies was born in 1924 into the mining community of Treorchy (Campbell-Kelly 2008). Davies gained a physics degree in 1943, later graduating again in mathematics. While drafted into the secretive wartime ‘Tube Alloys’ project Davies’s mathematical work was supervised by Klaus Fuchs, an enigmatic nuclear physicist who became infamous for passing atomic weapons secrets to the KGB (Campbell-Kelly 1986).</p>
+                </div>
+                <div id="bioimg2" class="imgwrap">
+                    <img src="img/pilotace.jpg" alt="Detail image of part of the Pilot ACE computer">
+                    <p class="caption">Detail of the Pilot ACE digital computer, completed by Davies and others at the NPL. </p>
+                    <p class="attribution">Part of the Pilot ACE computer. Alexander Baxevanis,<br> CC-BY-SA 2.0, via <a id="flickrlink" href="https://www.flickr.com/photos/futureshape/7735874240/">flickr</a></p>
+                </div>
+                <div id="bio2">
+                    <h3>Joining the NPL</h3>
+                    <p>In 1947, after attending a lecture describing an NPL project to design a digital computer, Davies applied to join, and soon found himself working to plans drawn up by the group’s leader, Alan Turing. Rather than being intimidated by the man’s reputation as a genius, Davies recalled ‘foolishly’ approaching Turing to discuss ‘numerous... subtle errors’ in one of Turing’s seminal mathematical papers (Needham 2002). After Turing moved on to other projects, Davies remained part of the team that finally presented the Pilot ACE electronic computer in 1950.</p>
+                    <p>By 1965, the NPL’s focus was shifting to connectivity and ‘time-sharing’: connecting remote terminals to mainframe computers, thus allowing multiple users to run programs. Davies, by now Superintendent at the NPL, would regularly host seminars with colleagues at MIT and IBM to share technological developments. In the course of these discussions Davies began to realise crucial shortcomings in the design of the emerging networks.</p>
+                </div>
+                <div id="bio3">
+                    <h3 class="parahead">A breakthrough</h3>
+                    <p>The connections were being made using telephone circuitry; data, intermittent in nature, was being sent and received through a system configured to transmit continuous flows of speech (Needham 2002). Telephone circuits were also slow to connect and relied upon fixed, end-to-end routing patterns. This left large data transmissions prohibitively slow and vulnerable to frequent transmission failure (NPL 2020).<br>
+                    Recalling his childhood spent absorbing the intricacies of telephone and message circuits at his mother’s workplace, Davies realised that it would be advantageous to queue up these transmissions like letters, as many small ‘packets’ of data.</p>
+                    <hr>
+                    <p>This idea seemed to come to Davies fully formed. Containing information of their sequence, origin and destination, packets could be sent by alternate routes through the network and rearranged into data at the other end. Davies even took the initiative to consult a linguistics colleague before naming his discovery, in order to ensure an easily translatable term was chosen (Dettmer 1998). <br>In his capacity as Superintendent at the NPL, Davies was able to lead his team in building a small network showcasing his innovation, just as colleagues in the US were independently coming to the same solution. At the next international conference, American researchers learned of Davies’ network structure and implemented it in their 1969 project ARPANET (Smith et al. 2012). This prototype, networked using packet switching, famously grew to become the precursor to the Internet.</p>
+                </div>  
+                <div id="bioimg3" class="imgwrap">
+                    <img id="donimg3" src="img/packet.png" alt="basic diagram of a data packet including metadata for sequence, structure, sender, receiver.">
+                    <p class="caption">Diagram of an IPv4 data packet. Note the various stored metadata.</p>
+                    <p class="attribution">Michel Bakni, CC BY-SA 4.0, via Wikimedia Commons</p>
+                </div> 
+            </div>
+            <div id="bio4">
+                <hr>
+                <h3>Davies' legacy</h3>
+                <p>With the benefit of hindsight, the best ideas can sometimes seem like common sense. Donald Davies had the enthusiasm and completeness of vision to convince a sceptical industry of the beauty in his 'simple' innovation (Needham 2002). Packet switching has developed over the following 60 years but the concept remains, and is still fundamental to the latest designs in telecommunications networks.</p> 
+            </div>
+        </main>
+        <footer>
+            <p id="disclaimer">All content created by me, Joe Llewelyn, unless otherwise stated. Images used under Creative Commons and attributed.</p>
+            <a id="footerlink" href="refs.html">references</a>
+        </footer>
+    </body>
+</html>

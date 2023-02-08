@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Computerworld</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <!--Google Fonts API html links provided via Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">  
+        <link href="https://fonts.cdnfonts.com/css/gill-sans?styles=17575" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/cooper-black" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    </head>
+    <body>
+        <div class="titlebar">
+            <!-- <header> tag breaks sticky subheader -->
+            <h1 class="title">COMPUTERWORLD</h1>
+            <h1 class="mobiletitle">COMPUTER<br>WORLD</h1>
+            <h2 class="mobilesubtitle">an introduction to Computational Thinking</h2>
+        </div>        
+        <div class="subhead">      
+            <h2 class="subtitle">an introduction to Computational Thinking</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="biog.html">Biography</a>
+                <a href="thoughts.html">Reflections</a>
+            </nav>
+        </div>
+        <main>
+            <div id="splash">
+                <blockquote>“A method of analysing the world as a complex of information processes:<br>patterns to be logically broken down into discrete stages and solved procedurally.”</blockquote>
+                <p class="ctpara">This definition of the discipline of Computational Thinking (Denning and Tedre 2019) is by no means universally agreed upon and, somewhat ironically, there are still debates over the logical approach to defining CT, or indeed whether an strict definition is even useful (Voogt et al. 2015). We are still realising what it means to think computationally, but we know that it is vital to building effective solutions to complex problems.</p>
+            </div>
+            <div class="maintext">
+                <div id="gridcontainer">
+                    <h2 id="cttitle">A guide to systematic problem solving</h2>
+                    <div id="ctgrid1">
+                        <p id="ctblurb">We can treat CT as a sort of <em>cognitive algorithm</em> to follow as we begin the process of reverse-engineering problems, breaking them down into ‘meta-problems’. Before we try to solve the problem, we plan our method. We can then use concepts of decomposition, pattern recognition and abstraction to begin solving the problem.</p>
+                        <ul id="ctlist">
+                            <li>What is the desired outcome?</li>
+                            <li>Are there multiple ways to achieve the outcome?</li>
+                            <li>How difficult may it be to reach a solution?</li>
+                            <li>Which is the best method of solving it? In what order? (Wing 2006)</li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+                <div id="ctgrid2">
+                    <div id="ct1">
+                        <p class="ctpara">By ‘decomposing’ a problem in this way, we are transforming a complex problem into a series of simpler tasks to be solved one by one, stage by stage. Patterns may exist in the smaller tasks; many tasks could be slight variations on a single concept. The solution may even require one thing to happen multiple times in a loop.<br>By approaching a problem computationally we are able to look past any superfluous details or parts less easily understood: the structured, logical thought process allows a chance to ‘abstract’ the elements that are most necessary to solve the problem (Beecher 2017).</p>
+                    </div>
+                    <div id="ctextra1">
+                        <h3>Practical labour - an analogy</h3>
+                        <p class="extra">In the construction industry, a large project will be decomposed and delegated by a manager. Designers, civil engineers and manual workers could not attempt to complete the project as a whole: rather, they each work to their skillset, abstracting the salient from the unnecessary in order to complete their task effectively.</p>
+                    </div>
+                    <div id="ct2">
+                        <h3>Computational thinking for programmers</h3>
+                        <p class="ctpara">CT is a particularly important cognitive process for those of us embarking on a course in programming.  Computers are used to aid us in processing information, but they must first be instructed in programs, and these are rarely simple. It would be daunting to attempt a complicated programming task without first clarifying what outcome the program seeks to achieve and identifying any patterns.<br>
+                        Two crucial tools to programming students applying principles of CT when designing algorithms are <em>pseudocode</em> and <em>flow charts</em>. Flow charts are widely known as a useful way of visually presenting data in a step-by-step manner, but pseudocode is arguably essential when using CT to progress in programming. </p>
+                    </div>
+                    <div id="ctextra2">
+                        <h3>Pseudocode</h3>
+                        <p class="extra">a plain language, ‘code-like’ sequence of instructions and is effectively a programming language the student is already familiar with. Without needing to adhere to strict rules of syntax, a student can immediately begin to use principles of CT to decompose a problem, design a program, describe the stages of their thought process in understandable language. Once the basis of this logical approach is established, they can then move on to constructing an actual algorithm, iterating for bugs and mistakes as necessary.</p>
+                    </div>
+                    <div id="ct3">
+                        <hr>
+                        <p class="ctpara">Learning to approach problems in pseudocode before tackling the intricacies of programming syntax reinforces the key argument of many in the field: that the desired outcome of programming study is to learn effective and elegant problem-solving, not simply to design computer programs (Olsen 2005).<br>As I begin learning more complex programming languages as part of my studies, I realise the importance of learning these cognitive skills. I do not yet know which area of IT I will go on to specialise in, but I already know that these skills of logical and effective thinking will be vital for success in any complex and rapidly changing industry.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p id="disclaimer">All content created by me, Joe Llewelyn, unless otherwise stated.</p>
+            <a id="footerlink" href="refs.html">references</a>
+        </footer>
+    </body>
+</html>
